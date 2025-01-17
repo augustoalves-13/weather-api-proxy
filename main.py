@@ -14,7 +14,7 @@ app = FastAPI(title='Weather API Proxy')
 origins = [
     'http://localhost:3000',
     'http://localhost:5173',
-    'https://weather-app-sep.vercel.app/'
+    'https://weather-app-sep.vercel.app'
 ]
 
 app.add_middleware(
